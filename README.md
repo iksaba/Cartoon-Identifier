@@ -1,4 +1,4 @@
 # Cartoon-Identifier
 
-# Marwan Aliaoui
-# Iker Santín
+- Marwan Aliaoui
+- Iker Santín
