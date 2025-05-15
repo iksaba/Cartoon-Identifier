@@ -1,7 +1,7 @@
 close all
 
 % Ruta principal de la carpeta que contiene las subcarpetas
-mainFolder = '/MATLAB Drive/Cartoon-Identifier/TRAIN';
+mainFolder = 'F:/Documents/vc/cartoon/TRAIN';
 
 % Obtener todas las subcarpetas
 subfolders = dir(mainFolder);
@@ -22,7 +22,7 @@ imageLabels = {};
 imageClassIDs = [];
 
 % Definir el tamaño estándar para todas las imágenes
-targetSize = [360, 640]; % [altura, anchura]
+targetSize = [1080, 1920]; % [altura, anchura]
 
 % Recorrer todas las subcarpetas y obtener las imágenes
 for k = 1:length(subfolders)
